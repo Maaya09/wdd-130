@@ -1,5 +1,8 @@
 body {
     background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 header {
     background-color: rgba(1, 60, 16, 0.7);
@@ -14,7 +17,9 @@ nav a {
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
-}
+    padding: 15px 20px;
+    margin: 20px 30px;
+} 
 footer p {
     font-size: 1.2em;
 }
@@ -22,14 +27,15 @@ footer p a:hover{
     text-decoration: underline;
     background-color:rgba(7, 124, 178, 0.7);
 }
-.button-box a:hover{
-    background-color:rgba(7, 124, 178, 0.7)
+.book a:hover{
+    background-color:rgba(163, 208, 229, 0.7)
 }
 footer {
     background-color: rgba(1, 60, 16, 0.7);
 }
 .logo {
-    height: 70px;
+    height: 100px;
+    padding-bottom: 30px;
 }
 .msg a:hover{
     background-color:rgba(7, 124, 178, 0.7)
@@ -37,13 +43,45 @@ footer {
 
 h1 {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
 }
 .home-grid h2 {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
 }
 h4 {
     font-family: fantasy;
+    font-size: 28px;
 }
 p {
     font-family: fantasy;
+    font-size: 20px;
+    line-height: 40px;
+}
+h2 {
+    margin: 5px;
+    
+}
+.book, .join {
+    background-color:rgb(221, 188, 131);
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 3px;
+    padding: 15px 30px;
+    
+}
+main section img {
+    box-sizing: border-box;
+}
+.home-title {
+    font-size: 2em;
+}
+section img {
+    margin-top: 40px;
+}
+.logo_link a {
+    border-radius: 6px;
+}
+.card-img {
+    border: 10px solid #c3b7a7;
 }
