@@ -85,3 +85,9 @@ section img {
 .card-img {
     border: 10px solid #c3b7a7;
 }
+.social a{
+    padding-right: 20px;
+}
+footer a{
+    text-decoration: none;
+}
