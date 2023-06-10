@@ -19,7 +19,7 @@ Fonts are separated by a | */
   --headline-color-on-color: white; /* headlines on a colored background */ 
   --paragraph-color-on-white: #3b8550; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #0e6f82  ;
+  --paragraph-background-color: #0e6f82;
   --nav-link-color: #69aab6;
   --nav-background-color: #c6cfdf;
   --nav-hover-link-color: white;
@@ -187,4 +187,55 @@ nav {
 }
 p {
   font-family: fantasy
+}
+main {
+  display: grid;
+  grid-template-columns: 150px auto;
+}
+.one {
+  grid-column: 1/2;
+}
+.first {
+grid-column: 1/2;;
+}
+.second {
+  grid-column: 1/2;
+  width: 1250px;
+  height: 350px;
+}
+.two {
+  grid-column: 1/2;
+}
+.four {
+  grid-column: 1/2;
+}
+.three {
+  grid-column: 1/2;
+}
+.thrid {
+  grid-column: 1/2;
+}
+.sns {
+  grid-column: 1/2;
+}
+.snss {
+  grid-column: 3/4;
+}
+.last {
+  width: 70px;
+  height: 70px;
+}
+footer {
+  background-color: #0e6f82;
+  padding: 25px 50px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1250px;
+  height: 50px;
+}
+.brainstorm {
+  grid-column: 1/4;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
