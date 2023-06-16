@@ -226,3 +226,38 @@ section img {
 #logo_link a {
     border-radius: 6px;
 }
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px; 
+}
+.firstpic {
+    width: 350px;
+    height: 350px;
+    grid-row: 1;
+    margin-top: 100px;
+    margin-left: 170px;
+}
+.secondpic {
+    width: 350px;
+    height: 350px;
+    margin-left: 170px;
+    grid-row: 2;
+    margin-top: 40px;
+}
+.description {
+    font-family:'Times New Roman', Times, serif;
+    grid-row: 1;
+    font-size: 30px;
+    margin-top: 90px;
+    margin-right: 90px;
+}
+.descriptions {
+    font-family:'Times New Roman', Times, serif;
+    grid-row: 2;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-right: 90px;
+}
+
