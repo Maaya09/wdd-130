@@ -1,0 +1,79 @@
+header {
+    display: flex;
+    align-items: center;
+    background-color: #acd8d9;
+    padding: 10px;
+}
+.logo {
+    margin-right: 10px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+header nav {
+    display: flex;
+    align-items: center;
+}
+header nav a {
+    margin-bottom: 10px;
+    padding-right: 20px;
+    text-decoration: none; 
+    padding-left: 200px;
+    
+}
+
+.btn {
+    border: 1px solid black;
+    padding: 20px;
+}
+.description {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border: 1px solid rgb(57, 86, 42);
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.creator {
+    grid-column: 1/2;
+    grid-row: 2;
+    margin-top:80px;
+    margin-left: 50px;
+}
+.creator_description {
+    grid-row: 2;
+}
+main {
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: repeat(4, auto);
+    grid-gap: 20px;
+}
+.middle {
+    margin-left: 120px;
+    height: 300px;
+    width: 1200px;
+}
+.sns {
+    padding-right: 20px;
+    text-decoration: none;
+    padding-left: 50px;
+}  
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #acd8d9;
+    padding: 10px;
+}
+footer nav {
+    display: flex;
+    align-items: center;
+    background-color: #acd8d9;
+}
+footer nav a {
+    margin-bottom: 10px;
+    padding-right: 20px;
+    text-decoration: none;
+    padding-left: 200px;
+}  
