@@ -1,7 +1,7 @@
 header {
     display: flex;
     align-items: center;
-    background-color: #acd8d9;
+    background-color: #e79f95;
     padding: 10px;
 }
 .logo {
@@ -13,6 +13,7 @@ header {
 header nav {
     display: flex;
     align-items: center;
+    font-size: 25px;
 }
 header nav a {
     margin-bottom: 10px;
@@ -63,13 +64,14 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #acd8d9;
+    background-color: #e79f95 ;
     padding: 10px;
 }
 footer nav {
     display: flex;
     align-items: center;
-    background-color: #acd8d9;
+    background-color: #e79f95;
+    font-size: 25px;
 }
 footer nav a {
     margin-bottom: 10px;
@@ -77,3 +79,112 @@ footer nav a {
     text-decoration: none;
     padding-left: 200px;
 }  
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 450px);
+    grid-gap: 20px;
+}
+.takahashi {
+    grid-column: 1/2;
+    grid-row: 1;
+    width: 450px;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.sho {
+    grid-column: 1/2;
+    grid-row: 2;
+    width: 500px;
+    margin-left: 120px;
+    margin-top: 165px
+}
+.video-container1 {
+    grid-column: 1/2;
+    grid-row: 3;
+    margin-top: 130px;
+    margin-left: 100px;
+}
+.video-container2 {
+    grid-row: 4;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+.videos {
+    grid-column: 1/2;
+    grid-row: 1;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 40px;
+    color: #acd8d9;
+}
+.first-description {
+    grid-column: 2/3;
+    margin-top: 140px;
+    font-size: 30px;
+    border: 12px solid #f1dcce;
+    border-radius: 10px;
+    height: 270px;
+    font-family: fantasy;
+}
+.second-description {
+    font-family: fantasy;
+    font-size: 30px;
+    grid-column: 2/3;
+    border: 12px solid #f1dcce;
+    border-radius: 10px;
+    margin-top: 200px;
+    height: 265px;
+}
+.third-description {
+    font-family: fantasy;
+    grid-column: 1/2;
+    grid-row: 3;
+    font-size: 30px;
+    border: 12px solid #f1dcce;
+    border-radius: 10px;
+}
+.forth-description {
+    font-family: fantasy;
+    grid-column: 1/2;
+    grid-row: 4;
+    font-size: 30px;
+    border: 12px solid #f1dcce;
+    border-radius: 10px;
+}
+.interview-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;;
+}
+.interviews {
+    grid-column: 1/2;
+    font-family: 'Times New Roman', Times, serif;
+}
+.start {
+    grid-column: 1/2;
+
+}
+.how {
+    grid-column: 2/3;
+}
+.goals {
+    grid-column: 3/4;
+}
+.germany {
+    grid-column: 1/2;
+}
+.feel {
+    grid-column: 2/3;
+}
+.future {
+    grid-column: 3/4;
+}
+.plans {
+    grid-column: 1/2;
+}
+.college {
+    grid-column: 2/3;
+}
+.sports {
+    grid-column: 3/4; 
+}
