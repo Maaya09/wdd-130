@@ -154,37 +154,58 @@ footer nav a {
 .interview-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 20px;
 }
 .interviews {
-    grid-column: 1/2;
     font-family: 'Times New Roman', Times, serif;
+    color: #acd8d9;
 }
 .start {
     grid-column: 1/2;
-
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 40px;
 }
 .how {
     grid-column: 2/3;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 40px;
 }
 .goals {
     grid-column: 3/4;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 40px;
 }
 .germany {
     grid-column: 1/2;
+    font-size: 20px;
+    font-weight: bold;
 }
 .feel {
     grid-column: 2/3;
+    font-size: 20px;
+    font-weight: bold;
 }
 .future {
     grid-column: 3/4;
+    font-size: 20px;
+    font-weight: bold;
 }
 .plans {
     grid-column: 1/2;
+    font-size: 20px;
+    font-weight: bold;
 }
 .college {
     grid-column: 2/3;
+    font-size: 20px;
+    font-weight: bold;
 }
 .sports {
     grid-column: 3/4; 
+    font-size: 20px;
+    font-weight: bold;
 }
