@@ -106,6 +106,7 @@ footer nav a {
     margin-left: 100px;
 }
 .video-container2 {
+    grid-column: 1/2;
     grid-row: 4;
     margin-top: 40px;
     margin-left: 100px;
@@ -119,17 +120,17 @@ footer nav a {
 }
 .first-description {
     grid-column: 2/3;
-    margin-top: 140px;
+    grid-row: 1;
     font-size: 30px;
     border: 12px solid #f1dcce;
     border-radius: 10px;
-    height: 270px;
     font-family: fantasy;
 }
 .second-description {
     font-family: fantasy;
     font-size: 30px;
     grid-column: 2/3;
+    grid-row: 2;
     border: 12px solid #f1dcce;
     border-radius: 10px;
     margin-top: 200px;
@@ -137,7 +138,7 @@ footer nav a {
 }
 .third-description {
     font-family: fantasy;
-    grid-column: 1/2;
+    grid-column: 3/4;
     grid-row: 3;
     font-size: 30px;
     border: 12px solid #f1dcce;
@@ -145,7 +146,7 @@ footer nav a {
 }
 .forth-description {
     font-family: fantasy;
-    grid-column: 1/2;
+    grid-column: 3/4;
     grid-row: 4;
     font-size: 30px;
     border: 12px solid #f1dcce;
