@@ -1,0 +1,71 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.contents {
+    padding-right: 60px;
+    padding-left: 60px;
+    grid-column: 2/3;
+    position: relative;
+    background-color: white;
+    margin-left: -70px;
+    height: 470px;
+}
+.background {
+    background-image: url(./picture/light-green-yellow-gradient-blur-backdrop-vector.jpeg);
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(./picture/light-green-yellow-gradient-blur-backdrop-vector.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.picture {
+    position: relative;
+    width: 400px;
+    height: 470px;
+}
+.container {
+    width: 940px;
+    margin: auto;
+    display: block;
+    padding-top: 170px;
+}
+.contents {
+    height: 470px;
+}
+.contents p {
+    padding-top: 70px;
+    font-size: 15px;
+}
+.contents hr {
+    height: 4px;
+    background-color: black;
+}
+.black {
+    width: 20px;
+    height: 20px;
+    padding-bottom: 46px;
+}
+.navy {
+    width: 20px;
+    height: 20px;
+    padding-bottom: 46px;
+}
+.conma2 {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    padding-bottom: 46px;
+}
+.conma3 {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    margin-bottom: 46px;
+    margin-right: 150px;
+}
+
