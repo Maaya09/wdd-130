@@ -119,7 +119,7 @@ footer nav a {
     color: #acd8d9;
 }
 .first-description {
-    grid-column: 2/3;
+    grid-column: 2/4;
     grid-row: 1;
     font-size: 30px;
     border: 12px solid #f1dcce;
@@ -129,7 +129,7 @@ footer nav a {
 .second-description {
     font-family: fantasy;
     font-size: 30px;
-    grid-column: 2/3;
+    grid-column: 2/4;
     grid-row: 2;
     border: 12px solid #f1dcce;
     border-radius: 10px;
