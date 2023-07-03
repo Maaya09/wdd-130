@@ -125,6 +125,8 @@ footer nav a {
     border: 12px solid #f1dcce;
     border-radius: 10px;
     font-family: fantasy;
+    margin-top: 200px;
+    height: 265px;
 }
 .second-description {
     font-family: fantasy;
@@ -143,6 +145,8 @@ footer nav a {
     font-size: 30px;
     border: 12px solid #f1dcce;
     border-radius: 10px;
+    height: 265px;
+    margin-top: 150px;
 }
 .forth-description {
     font-family: fantasy;
@@ -151,6 +155,8 @@ footer nav a {
     font-size: 30px;
     border: 12px solid #f1dcce;
     border-radius: 10px;
+    height: 265px;
+    margin-top: 60px;
 }
 .interview-container {
     display: grid;
